@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online Course Portal
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Online Course Portal is a web-based application designed to provide users with access to a variety of online courses. Built with Next.js, it offers a user-friendly interface for course browsing, enrollment, and management.
+
+## Features
+
+- User authentication and authorization.
+- Course browsing and search functionality.
+- Enrollment management.
+- Responsive design for various devices.
+
+## Prerequisites
+
+- Node.js (version 14.x or higher)
+- npm or yarn package manager
+- Basic understanding of JavaScript, React, and Next.js
+
+## Usage
+
+### Setup Environment Variables
+
+1. Create a `.env` file in the root directory.
+2. Add necessary environment variables (e.g., database connection strings, API keys).
+
+### Install Dependencies
+
+Run the following command to install the required packages:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Run the Project
+
+Start the development server with:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Error Handling
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The application includes basic error handling for common issues such as invalid input and server errors, providing appropriate messages to guide users.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Pull requests are welcome. For major changes, please open an issue first to discuss proposed modifications. Ensure that updates are properly tested.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Limitations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The application currently lacks advanced features such as video streaming or interactive quizzes.
+- Assumes a local development environment; deployment configurations may vary.
 
-## Deploy on Vercel
+## Project Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Rafan R. Nadiadwala:** [LinkedIn Profile](https://www.linkedin.com/in/rafan-nadiadwala-062b70262)
